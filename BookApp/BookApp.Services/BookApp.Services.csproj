@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BookApp.DataAccess\BookApp.DataAccess.csproj" />
+    <ProjectReference Include="..\BookApp.Mappers\BookApp.Mappers.csproj" />
+  </ItemGroup>
+
+</Project>
